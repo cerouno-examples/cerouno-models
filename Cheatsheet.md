@@ -4,7 +4,7 @@
 
 Todos estos comandos se ejecutan en el folder de la aplicación Rails:
 
-### Crear un modelo
+### Crear un modelo
 
 `rails g model [Model] [attribute]:[type] ...`
 
@@ -12,15 +12,15 @@ IE.
 
 `rails g model Person name:string age:integer dob:date salary:float likes_cats:boolean`
 
-### Ejecutar las migraciones
+### Ejecutar las migraciones
 
 `rails db:migrate`
 
-### Rollback de las migraciones
+### Rollback de las migraciones
 
 `rails db:rollback`
 
-### Empezar el servidor
+### Empezar el servidor
 
 `rails server`
 
@@ -38,11 +38,11 @@ IE.
 
 `Person.find_by(name: 'Adrian')`
 
-### Crear un modelo
+### Crear un modelo
 
 `Person.create(name: 'Adrian')`
 
-### Cambiar un modelo
+### Cambiar un modelo
 
 ```
 person = Person.find(1)
