@@ -3,7 +3,6 @@
 - Clases y Objetos
   - Manual vs Cosa
   - Fabrica vs Producto
-  - Práctica Pokemon
 - Rails y MVC
   - Esquema de Restaurante
 - Modelos
@@ -17,39 +16,3 @@
 ## Revisión de Rails y MVC
 
 ![](./MVC.png)
-
-## Modelos
-
-### Spotify
-
-Artist
-
-- Name
-- Bio
-- Plays
-- Songs
-
-Song
-
-- Name
-- Plays
-
-### Shoppify
-
-Product
-
-- Name
-- Price
-- SKU
-
-Cart
-
-- Items
-
-### Twitter
-
-Tweet
-  body
-
-User
-  username
