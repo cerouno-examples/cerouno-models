@@ -28,6 +28,42 @@ IE.
 
 `rails console`
 
+## Básicos
+
+### Buscar por id
+
+`Person.find(1)`
+
+### Buscar por algun atributo
+
+`Person.find_by(name: 'Adrian')`
+
+### Crear un modelo
+
+`Person.create(name: 'Adrian')`
+
+### Cambiar un modelo
+
+```
+person = Person.find(1)
+person.name = 'Adri'
+person.save
+```
+
+### Actualizar un modelo directamente
+
+```
+person = Person.find(1)
+person.update(name: 'Adrian')
+```
+
+### Eliminar un Modelo
+
+```
+person = Person.find(1)
+person.destroy
+```
+
 ## Validaciones y relaciones
 
 * [Validaciones](https://api.rubyonrails.org/classes/ActiveModel/Validations/ClassMethods.html#method-i-validates)
